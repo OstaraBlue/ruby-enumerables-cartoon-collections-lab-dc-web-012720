@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(calls_long)
   # Your code here
-  calls_long.each {|x| if x.count > 4 return true}
+  calls_long.each {|x| if x.count > 4 }
   return false
 end
 
