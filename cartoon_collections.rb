@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(calls_long)
   # Your code here
-  calls_long.each {|x| if x.count > 4 puts true}
+  calls_long.each {|x| if x.count > 4 p true}
 end
 
 def find_the_cheese# code an argument here
