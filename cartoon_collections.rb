@@ -26,7 +26,7 @@ def find_the_cheese(array)
   cheese_types.map { |x| 
     array.map { |n| 
       if x == n 
-        print x
+        print n
       end
     }
   }
