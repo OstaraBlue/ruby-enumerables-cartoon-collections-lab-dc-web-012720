@@ -12,7 +12,9 @@ end
 def long_planeteer_calls(calls_long)
   # Your code here
   calls_long.each {|x|
-    if x
+    if x.length > 4
+      return true 
+    end
     binding.pry
   }
 end
