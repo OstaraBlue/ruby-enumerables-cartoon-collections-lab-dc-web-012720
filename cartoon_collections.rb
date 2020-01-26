@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(calls_long)
   # Your code here
-  calls_long.
+  calls_long.reduce {|x| if x.count > 4 return true}
 end
 
 def find_the_cheese# code an argument here
